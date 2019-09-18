@@ -1,6 +1,6 @@
 # Javascript Four
 
-Todays lecture we will talk about Classes, Context, and some more depth of Arrow Functions.
+Todays lecture we will talk about Classes, Context, and more about Arrow Functions.
 
 ## Context
 
@@ -29,7 +29,7 @@ displayMyCar();
 
 ### Implicit Context
 
-Implicit Context is where the value of `this` is the parent object of where the function exists. In the example above, the function exists in the global object, so the context of the `displayMyCar` function would be referring to the window object. However, the default value of the context will be implictely changed based on where the function exists. Meaning, if we have a function inside of an object, the default context for that function would be the object it lives in.
+Implicit Context is where the value of `this` is the parent object of where the function exists. In the example above, the function exists in the global object, so the context of the `displayMyCar` function would be referring to the window object. However, the default value of the context will be implicitly changed based on where the function exists. Meaning, if we have a function inside of an object, the default context for that function would be the object it lives in.
 
 > It's easy to think that the value of `this` will be whatever is left of the `.`
 
@@ -50,11 +50,11 @@ Notice how `showOff` lives on the `newCar` object so the context of the showOff 
 
 ### Explicit Context
 
-Explicit Context is where we explicitely tell a function what it's context is. We can do that by using the three different built in function methods `call`, `apply`, and `bing`.
+Explicit Context is where we explicitly tell a function what it's context is. We can do that by using the three different built in methods `call`, `apply`, and `bind`.
 
 #### Call
 
-`.call()` is a built method that we can use on Function objects. This will allow us to pass in the object as an argument that we want the context of `this` to refer to. The following arguments will be additional values that we can use. These will need to be comma seperated.
+`.call()` is a built in method that we can use on Function objects. This will allow us to pass in the object as an argument that we want the context of `this` to refer to. The following arguments will be additional values that we can use. These will need to be comma seperated.
 
 ```javascript
 // people object with a method
@@ -82,7 +82,7 @@ people.sayName.call(personTwo, 'masaratti', 2020);
 
 #### Apply
 
-`.apply()` works exactly like how call works, but the only difference is that apply only takes in two arguments so we will pass in new arguments as an array not comma seperated values.
+`.apply()` works exactly like how call works, with the only difference being that apply only takes in two arguments so we will pass in new arguments as an array not comma seperated values.
 
 ```javascript
 // people object with a method
@@ -104,7 +104,7 @@ const personTwo = {
 };
 
 // apply the people method sayName on two different objects
-people.sayName.apply(personeOne, 'tesla', 2020);
+people.sayName.apply(personeOne, ['tesla', 2020]);
 people.sayName.apply(personTwo, ['masaratti', 2020]);
 ```
 
@@ -112,7 +112,7 @@ people.sayName.apply(personTwo, ['masaratti', 2020]);
 
 #### Bind
 
-`.bind()` works very similar to call except it defers the function invokation, meaning it will return an entirely new function.
+`.bind()` works very similar to call except it defers the function invocation, meaning it will return an entirely new function.
 
 ```javascript
 // sayName function
@@ -163,12 +163,12 @@ class Car {
 
 const myCar = new Car();
 
-console.log(myCar) //result: this will be the new car object from the class invokation
+console.log(myCar) //result: this will be the new car object from the class invocation
 ```
 
 ### Constructor Function
 
-We can have our class execpt arguments by using a `constructor` function. This function is where we will receive arguments and can then add them as a property to the object that class returns by using the `this`. 
+We can have our class accept arguments by using a `constructor` function. This function is where we will receive arguments and can then add them as a property to the object that class returns by using the `this` keyword. 
 
 ```javascript
 class Car {
@@ -208,9 +208,9 @@ const myCar = new Car('Tesla', 'Model X', 2020);
 
 ### Extending Classes
 
-We can have a class extend from another class to inherit the properties and protoypes from another class without having to re-write the logic.
+We can have a class extend from another class to inherit the properties and prototypes from another class without having to re-write the logic.
 
-We use the keyword `extends` to delcare our new class is extending another class.
+We use the keyword `extends` to declare our new class is extending another class.
 
 ```javascript
 class Animal {
@@ -235,7 +235,7 @@ const fishy = new Fish();
 
 ### Super
 
-`super` is the keyword we can use when extending a class to invoke the construcor method from the class that is being extended. When we invoke `super` we will pass the arguments to the parent classes constructor method.
+`super` is the keyword we can use when extending a class to invoke the constructor method from the class that is being extended. When we invoke `super` we will pass the arguments to the parent classes constructor method.
 
 ```javascript
 class Animal {
