@@ -4,7 +4,7 @@ Todays lecture we will talk about Context, Constructors, Prototype Functions, an
 
 ## Lecture Slides
 
-https://slides.com/mattbodily/javascript-five
+https://slides.com/matias_perez/javascript-five/
 
 ## Context
 
