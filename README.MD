@@ -10,6 +10,24 @@ https://repl.it/@matias_perez/JavaScript-5-Lecture
 
 https://slides.com/matias_perez/javascript-five/
 
+# Student Learning Objectives
+
+### Context
+* Student can use implicit context to invoke a function with the correct context
+* Student understands default context.
+* Student can use the `call` method to explicity give context
+* Student can use the `apply` method to explicity give context
+* Student understands the difference between `call` and `apply`
+* Student can use the `new` keyword to give context (this should be taught after classes)
+
+### Arrow Functions
+* Student can build and use an arrow function with one parameter (no parentheses).
+* Student can build and use an arrow function with no parameters.
+* Student can build and use an arrow function with multiple parameters.
+* Student can build and use an arrow function on one line of code with no curly brackets or return.
+* Student understands that arrow function do not have their own `this` keyword.
+* Student can use the `this` keyword in an arrow function to defer the context of `this` to the enclosing scope.
+
 ## Context
 
 Outside of Javascript, context means the surrounding information that gives a better understanding and more clarity to a situation. This also applies the same way to Javascript.
