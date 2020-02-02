@@ -28,6 +28,19 @@ https://slides.com/matias_perez/javascript-five/
 * Student understands that arrow function do not have their own `this` keyword.
 * Student can use the `this` keyword in an arrow function to defer the context of `this` to the enclosing scope.
 
+## Constructor Functions
+
+* Student can create an object using a constructor function
+* Student can add properties to an object using the `this` keyword within the constructor function
+* Student can use `new` operator to invoke constructor functions
+* Student can create public/private variables within a constructor function
+
+## Prototypes
+
+* Student can create a prototype method for a constructor function
+* Student understands why prototype methods use less memory than adding the method to the new objects created
+
+
 ## Context
 
 Outside of Javascript, context means the surrounding information that gives a better understanding and more clarity to a situation. This also applies the same way to Javascript.
