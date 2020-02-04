@@ -10,7 +10,7 @@ https://repl.it/@matias_perez/JavaScript-5-Lecture
 
 https://slides.com/matias_perez/javascript-five/
 
-# Student Learning Objectives
+## Student Learning Objectives
 
 ### Context
 * Student can use implicit context to invoke a function with the correct context
@@ -28,14 +28,14 @@ https://slides.com/matias_perez/javascript-five/
 * Student understands that arrow function do not have their own `this` keyword.
 * Student can use the `this` keyword in an arrow function to defer the context of `this` to the enclosing scope.
 
-## Constructor Functions
+### Constructor Functions
 
 * Student can create an object using a constructor function
 * Student can add properties to an object using the `this` keyword within the constructor function
 * Student can use `new` operator to invoke constructor functions
 * Student can create public/private variables within a constructor function
 
-## Prototypes
+### Prototypes
 
 * Student can create a prototype method for a constructor function
 * Student understands why prototype methods use less memory than adding the method to the new objects created
@@ -401,3 +401,40 @@ const evensArray = myArray.filter((element) => {
     return element % 2 === 0;
 });
 ```
+
+## Extra Resources
+Each of these video resources are from different creators, each of them often have videos on the other subjects but we wanted to give you a couple different sources that you can access.
+### Context
+#### Video Resource
+https://www.youtube.com/watch?v=fjJoX9F_F5g - video that is easy to follow along with that really breaks it down well
+#### Other Links
+https://javascript.info/object-methods - using 'this' with objects and their methods
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this -'this' keyword
+
+### Arrow Functions
+#### Video Resource
+https://www.youtube.com/watch?v=22fyYvxz-do - good overview and explanation of arrow functions
+#### Other Links
+https://javascript.info/arrow-functions-basics - this and the one below go about as in-depth as possible.
+
+https://javascript.info/arrow-functions - this one is more advanced than the basics one above
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions - MDN docs on arrow functions - great for syntax examples and links to other topics related to arrow functions
+
+### Constructor Functions
+#### Video Resource
+https://www.youtube.com/watch?v=lP_7H467pA8 - very easy to follow, albeit slow video on constructor functions
+#### Other Resources
+https://javascript.info/constructor-new - best resource I've found on constructor functions that doesn't go too deep into classes (which you'll learn about later)
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor - this might make more sense after reading the Object_prototypes article from MDN below but is still a good reference on constructors
+
+
+### Prototypes
+#### Video Resource
+https://www.youtube.com/watch?v=XskMWBXNbp0 - example-heavy video on prototypes.  @9:44 it gives a really good definition of prototypes
+#### Other Resources
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes - more of an article than a syntax heavy reference, this talks about what prototypes are and why they're used
+
+https://www.geeksforgeeks.org/prototype-in-javascript/ - this article has good graphics to help understanding
