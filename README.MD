@@ -457,7 +457,7 @@ const evensArray = myArray.filter((element) => {
 ### Other Resources
 * [javascript.info - Constructor Functions](https://javascript.info/constructor-new) - best resource I've found on constructor functions that doesn't go too deep into classes
 
-* [MDN - Constructor Functions]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor - this might make more sense after reading the Object_prototypes article from MDN below but is still a good reference on constructors
+* [MDN - Constructor Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor) - this might make more sense after reading the Object_prototypes article from MDN below but is still a good reference on constructors
 
 ## Prototypes
 ### Video Resource
