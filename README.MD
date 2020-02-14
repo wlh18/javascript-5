@@ -8,7 +8,7 @@ https://repl.it/@matias_perez/JavaScript-5-Lecture
 
 1. [JavaScript 5 Lecture Notes](#JavaScript-5-Lecture-Notes)
 1. [Additional Resources](#additional-resources)
-1. [JavaScript 5 Mini Project](#JavaScript-1-Mini-Project)
+1. [JavaScript 5 Mini Project](#JavaScript-5-Mini-Project)
 1. [JavaScript 5 Afternoon Project](#JavaScript-5-Afternoon-Project)
 
 ## Student Learning Objectives
