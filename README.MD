@@ -468,7 +468,7 @@ const evensArray = myArray.filter((element) => {
 
 * [Geeks for Geeks - Prototypes](https://www.geeksforgeeks.org/prototype-in-javascript/) - this article has good graphics to help understanding
 
-# JavaScript 5 Mini Project0
+# JavaScript 5 Mini Project
 Embedded in Unit 2.3 at https://lms.devmountain.com/courses/70
 
 # JavaScript 5 Afternoon Project
