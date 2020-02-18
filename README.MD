@@ -4,7 +4,7 @@ https://repl.it/@matias_perez/JavaScript-5-Lecture
 
 # Lesson Sections
 
-## Slideshow: https://slides.com/matias_perez/javascript-five/
+## Slideshow: https://slides.com/mattbodily/javascript-five-ae8f5c
 
 1. [JavaScript 5 Lecture Notes](#JavaScript-5-Lecture-Notes)
 1. [Additional Resources](#additional-resources)
