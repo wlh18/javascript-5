@@ -1,6 +1,9 @@
 
-## Lecture Code
-https://repl.it/@matias_perez/JavaScript-5-Lecture
+# Javascript 5
+
+Lecture Slides: https://slides.com/awestenskow/javascript-5#/
+
+Lecture Code: https://repl.it/@awestenskow/javascript-5-lecture
 
 # Lesson Sections
 
